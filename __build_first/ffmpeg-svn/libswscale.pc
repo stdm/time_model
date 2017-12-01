@@ -1,0 +1,12 @@
+prefix=/d/Data/Code/Sprecherklassifikation/dlls
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 0.5.0
+Requires:  libavcodec = 51.40.4
+Conflicts:
+Libs:
+Cflags: -I${includedir} -I${includedir}/ffmpeg

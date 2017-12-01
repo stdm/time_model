@@ -1,0 +1,228 @@
+#-----------------------------------------------
+# easyBMP
+#-----------------------------------------------
+
+#!/bin/bash
+
+#easyBMP init
+#pre-todo:  
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+	make clean
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private"
+fi
+
+#-----------------------------------------------
+# libsamplerate 0.1.2
+#-----------------------------------------------
+
+#!/bin/bash
+
+#libsamplerate 0.1.2 init
+#pre-todo:  
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+	make distclean
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private"
+fi
+
+./configure --prefix=$HOME/private
+
+#-----------------------------------------------
+# lame 3.97
+#-----------------------------------------------
+
+#!/bin/bash
+
+#lame 3.97 init
+#pre-todo:  
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+	make distclean
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private"
+fi
+
+./configure --prefix=$HOME/private --enable-shared --enable-static --disable-frontend
+
+#-----------------------------------------------
+# ffmpeg (SVN rev. 9375 proven to work)
+# linux
+#-----------------------------------------------
+
+#!/bin/bash
+
+#ffmpeg linux init
+#pre-todo:  maybe "svn up ." (might be dangerous, the recent code is sometimnes damaged...)
+#           build lame
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+  make distclean
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private" 
+fi
+
+./configure --prefix=$HOME/private --enable-shared  --extra-cflags="-L$LIBRARY_PATH -I$C_INCLUDE_PATH" --enable-libmp3lame
+
+#-----------------------------------------------
+# ffmpeg (SVN rev. 9375 proven to work)
+# windows
+#-----------------------------------------------
+
+#!/bin/bash
+
+#ffmpeg on windows init (SVN rev. 9375 proven to work)
+#pre-todo:  read http://arrozcru.no-ip.org/ffmpeg_wiki/tiki-index.php?page=Shared
+#           install mingw and msys
+#           load ms-visual-c++ environment variables into msys by using the following first line in msys-bat (change path' respectively): call "C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\bin\vcvars32.bat"
+#           start msys-shell (msys.bat)
+#           go to the ffmpeg directory
+#post-todo: make
+#           make install
+#           move the following file from PREFIX/bin to PREFIX: avcodec-51.dll avcodec-51.lib avcodec-51.dll avcodec-51.lib avutil-49.dll avutil-49.lib
+#           delete PREFIX/pkgconfig, PREFIX/lib, PREFIX/bin
+#           get windows-versions of inttypes.h and stdint.h and copy them to PREFIX
+
+if [ -e "Makefile" ]; then 
+  make distclean
+fi
+
+./configure --prefix=/d/Data/Code/Sprecherklassifikation/dlls --libdir=/d/Data/Code/Sprecherklassifikation/dlls --incdir=/d/Data/Code/Sprecherklassifikation/dlls/ffmpeg --enable-memalign-hack --enable-shared --disable-static --disable-debug --disable-ffserver --disable-ffplay
+
+
+#-----------------------------------------------
+# svlib
+#-----------------------------------------------
+
+#!/bin/bash
+
+#svlib init
+#pre-todo:  "svn up ." on complete "Sprecherklassifikation" directory
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+	make distclean
+fi
+
+if [ -e "configure" ]; then 
+	aclocal
+	autoheader
+	autoconf
+
+	touch NEWS
+	touch README
+	touch AUTHORS
+	touch ChangeLog
+
+	libtoolize --automake
+
+	automake -a
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private" 
+fi
+
+export CXXFLAGS="$CXXFLAGS -I$HOME/private/include"
+export LDFLAGS="$LDFLAGS -L$HOME/private/lib"
+
+./configure --prefix="$HOME/private"
+
+#-----------------------------------------------
+# sclib
+#-----------------------------------------------
+
+#!/bin/bash
+
+#sclib init
+#pre-todo:  "svn up ." on complete "Sprecherklassifikation" directory
+#           build ffmpeg/libsamplerate/easybmp/svlib
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+	make distclean
+fi
+
+if [ -e "configure" ]; then 
+	aclocal
+	autoheader
+	autoconf
+	
+	touch NEWS
+	touch README
+	touch AUTHORS
+	touch ChangeLog
+
+	libtoolize --automake
+	
+	automake -a
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private" 
+fi
+
+export CXXFLAGS="$CXXFLAGS -I$HOME/private/include"
+export LDFLAGS="$LDFLAGS -L$HOME/private/lib"
+
+./configure --prefix="$HOME/private"
+
+#-----------------------------------------------
+# scivo
+#-----------------------------------------------
+
+#!/bin/bash
+
+#scivo init
+#pre-todo:  "svn up ." on complete "Sprecherklassifikation" directory
+#           build svlib
+#post-todo: make
+#           make install
+
+if [ -e "Makefile" ]; then 
+	make distclean
+fi
+
+if [ -e "configure" ]; then 
+	aclocal
+	autoheader
+	autoconf
+	
+	touch NEWS
+	touch README
+	touch AUTHORS
+	touch ChangeLog
+	
+	libtoolize --automake
+	
+	automake -a
+fi
+
+if [ ! -e "$HOME/private" ]; then 
+	mkdir "$HOME/private"
+fi
+
+export CXXFLAGS="$CXXFLAGS -I$HOME/private/include"
+export LDFLAGS="$LDFLAGS -L$HOME/private/lib"
+
+./configure --prefix="$HOME/private"

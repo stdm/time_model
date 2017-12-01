@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34E4B761-CD56-4D31-B8F2-121C9FE4EEB6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\inter\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\inter\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\inter\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\inter\$(ProjectName)_$(Platform)_$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../svlib/src;../dlls;$(JAVA_HOME)/include/win32;$(JAVA_HOME)/include;C:/Program Files/MATLAB/MATLAB Compiler Runtime/v79/extern/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;SCLIB_EXPORTS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../dlls/libsamplerate.lib;../dlls/avcodec-51.lib;../dlls/avformat-51.lib;../dlls/EasyBMP.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../dlls/debug/sclib.pdb</ProgramDatabaseFile>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <NoEntryPoint>false</NoEntryPoint>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../dlls/debug/sclib.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../svlib/src;../dlls;$(JAVA_HOME)/include/win32;$(JAVA_HOME)/include;C:/Program Files/MATLAB/MATLAB Compiler Runtime/v79/extern/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;SCLIB_EXPORTS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../dlls/libsamplerate.lib;../dlls/avcodec-51.lib;../dlls/avformat-51.lib;../dlls/EasyBMP.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../dlls/debug/sclib.pdb</ProgramDatabaseFile>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <NoEntryPoint>false</NoEntryPoint>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../dlls/debug/sclib.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../svlib/src;../dlls;$(JAVA_HOME)/include/win32;$(JAVA_HOME)/include;C:/Program Files/MATLAB/MATLAB Compiler Runtime/v79/extern/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;SCLIB_EXPORTS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../dlls/libsamplerate.lib;../dlls/avcodec-51.lib;../dlls/avformat-51.lib;../dlls/EasyBMP.lib;../dlls/libfann.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../dlls/release/sclib.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../dlls/release/sclib.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../svlib/src;../dlls;$(JAVA_HOME)/include/win32;$(JAVA_HOME)/include;C:/Program Files/MATLAB/MATLAB Compiler Runtime/v79/extern/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;SCLIB_EXPORTS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../dlls/libsamplerate.lib;../dlls/avcodec-51.lib;../dlls/avformat-51.lib;../dlls/EasyBMP.lib;../dlls/libfann.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../dlls/release/sclib.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>../dlls/release/sclib.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SC_Aux.cpp" />
+    <ClCompile Include="src\SC_BaggenstossEM.cpp" />
+    <ClCompile Include="src\SC_BaggenstossEMex.cpp" />
+    <ClCompile Include="src\SC_Centroid.cpp" />
+    <ClCompile Include="src\SC_Centroid_Gaussian.cpp" />
+    <ClCompile Include="src\SC_Centroid_Point.cpp" />
+    <ClCompile Include="src\SC_Centroid_Signature.cpp" />
+    <ClCompile Include="src\SC_Classifier.cpp" />
+    <ClCompile Include="src\SC_Classifier_AdaBoost.cpp" />
+    <ClCompile Include="src\SC_Classifier_DecisionStump.cpp" />
+    <ClCompile Include="src\SC_Classifier_ML.cpp" />
+    <ClCompile Include="src\SC_Classifier_SVM.cpp" />
+    <ClCompile Include="src\SC_ClassifierHandler.cpp" />
+    <ClCompile Include="src\SC_ClassifierTree.cpp" />
+    <ClCompile Include="src\SC_ClassifierWithWeights.cpp" />
+    <ClCompile Include="src\SC_Cluster.cpp" />
+    <ClCompile Include="src\SC_Clusterer.cpp" />
+    <ClCompile Include="src\SC_Conversion.cpp" />
+    <ClCompile Include="src\SC_Corpus.cpp" />
+    <ClCompile Include="src\SC_Corpus_MAC.cpp" />
+    <ClCompile Include="src\SC_Corpus_MPEG7.cpp" />
+    <ClCompile Include="src\SC_Corpus_SCiVo.cpp" />
+    <ClCompile Include="src\SC_Corpus_TIMIT.cpp" />
+    <ClCompile Include="src\SC_Corpus_Wesley.cpp" />
+    <ClCompile Include="src\SC_DistanceMeasures.cpp" />
+    <ClCompile Include="src\SC_EMD.cpp" />
+    <ClCompile Include="src\SC_Enhancement.cpp" />
+    <ClCompile Include="src\SC_Feature_BandPeriodicity.cpp" />
+    <ClCompile Include="src\SC_Feature_BrightnessBandwidth.cpp" />
+    <ClCompile Include="src\SC_Feature_FbE.cpp" />
+    <ClCompile Include="src\SC_Feature_Formant.cpp" />
+    <ClCompile Include="src\SC_Feature_LPC.cpp" />
+    <ClCompile Include="src\SC_Feature_LPCresidual.cpp" />
+    <ClCompile Include="src\SC_Feature_LSP.cpp" />
+    <ClCompile Include="src\SC_Feature_MFCC.cpp" />
+    <ClCompile Include="src\SC_Feature_NFR.cpp" />
+    <ClCompile Include="src\SC_Feature_Pitch.cpp" />
+    <ClCompile Include="src\SC_Feature_Samples.cpp" />
+    <ClCompile Include="src\SC_Feature_SDP.cpp" />
+    <ClCompile Include="src\SC_Feature_Spectrum.cpp" />
+    <ClCompile Include="src\SC_Feature_SpectrumFlux.cpp" />
+    <ClCompile Include="src\SC_Feature_STE.cpp" />
+    <ClCompile Include="src\SC_Feature_SubBandPower.cpp" />
+    <ClCompile Include="src\SC_Feature_ZCR.cpp" />
+    <ClCompile Include="src\SC_FeatureHandler.cpp" />
+    <ClCompile Include="src\SC_Gauss.cpp" />
+    <ClCompile Include="src\SC_GroundTruth.cpp" />
+    <ClCompile Include="src\SC_GroundTruth_MAC.cpp" />
+    <ClCompile Include="src\SC_GroundTruth_MPEG7.cpp" />
+    <ClCompile Include="src\SC_GroundTruth_SCiVo.cpp" />
+    <ClCompile Include="src\SC_GroundTruth_TIMIT.cpp" />
+    <ClCompile Include="src\SC_GroundTruth_Wesley.cpp" />
+    <ClCompile Include="src\SC_HHT.cpp" />
+    <ClCompile Include="src\SC_Ini.cpp" />
+    <ClCompile Include="src\SC_JStreamReader.cpp" />
+    <ClCompile Include="src\SC_LDA.cpp" />
+    <ClCompile Include="src\SC_Lib.cpp" />
+    <ClCompile Include="src\SC_MainTasks.cpp" />
+    <ClCompile Include="src\SC_Matlab.cpp" />
+    <ClCompile Include="src\SC_MatrixFunctions.cpp" />
+    <ClCompile Include="src\SC_MD5.cpp" />
+    <ClCompile Include="src\SC_MixtureModel.cpp" />
+    <ClCompile Include="src\SC_MixtureModel_bGMM.cpp" />
+    <ClCompile Include="src\SC_MixtureModel_GMM.cpp" />
+    <ClCompile Include="src\SC_MixtureModel_GMM_UBM.cpp" />
+    <ClCompile Include="src\SC_MixtureModel_MIX2MAX.cpp" />
+    <ClCompile Include="src\SC_MixtureModel_MIX2MAXex.cpp" />
+    <ClCompile Include="src\SC_MixtureModel_MIXMAX.cpp" />
+    <ClCompile Include="src\SC_Model.cpp" />
+    <ClCompile Include="src\SC_Model_FullGauss.cpp" />
+    <ClCompile Include="src\SC_Model_HMM.cpp" />
+    <ClCompile Include="src\SC_Model_MetaGMM.cpp" />
+    <ClCompile Include="src\SC_Model_Pareto.cpp" />
+    <ClCompile Include="src\SC_Model_qGMM.cpp" />
+    <ClCompile Include="src\SC_Model_SVM.cpp" />
+    <ClCompile Include="src\SC_Model_Time.cpp" />
+    <ClCompile Include="src\SC_Model_VQ.cpp" />
+    <ClCompile Include="src\SC_ModelHandler.cpp" />
+    <ClCompile Include="src\SC_Partition.cpp" />
+    <ClCompile Include="src\SC_PDE.cpp" />
+    <ClCompile Include="src\SC_Resampling.cpp" />
+    <ClCompile Include="src\SC_Score.cpp" />
+    <ClCompile Include="src\SC_Score_AudioTypeClassification.cpp" />
+    <ClCompile Include="src\SC_Score_ChangeDetection.cpp" />
+    <ClCompile Include="src\SC_Score_VUv.cpp" />
+    <ClCompile Include="src\SC_SDP.cpp" />
+    <ClCompile Include="src\SC_Segmentation_AudioType.cpp" />
+    <ClCompile Include="src\SC_Segmentation_AudioType_LZL.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Changes.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Changes_KBK.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Changes_LZW.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Changes_Std.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Silence.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Silence_LNK.cpp" />
+    <ClCompile Include="src\SC_Segmentation_Silence_LZL.cpp" />
+    <ClCompile Include="src\SC_Segmentation_VUv.cpp" />
+    <ClCompile Include="src\SC_Segmentation_VUv_ESPS.cpp" />
+    <ClCompile Include="src\SC_Segmentation_VUv_LNK.cpp" />
+    <ClCompile Include="src\SC_SegmentationHandler.cpp" />
+    <ClCompile Include="src\SC_Signal.cpp" />
+    <ClCompile Include="src\SC_Signal_jWAVE.cpp" />
+    <ClCompile Include="src\SC_Signal_MPEG.cpp" />
+    <ClCompile Include="src\SC_Signal_NIST.cpp" />
+    <ClCompile Include="src\SC_Signal_WAVE.cpp" />
+    <ClCompile Include="src\SC_SignalHandler.cpp" />
+    <ClCompile Include="src\SC_Signature.cpp" />
+    <ClCompile Include="src\SC_SpeakerClusterer.cpp" />
+    <ClCompile Include="src\SC_SpeakerIdentificator.cpp" />
+    <ClCompile Include="src\SC_SpeakerScore.cpp" />
+    <ClCompile Include="src\SC_SpeakerScore_Classification.cpp" />
+    <ClCompile Include="src\SC_SpeakerScore_Clustering.cpp" />
+    <ClCompile Include="src\SC_SpeakerScore_Identification.cpp" />
+    <ClCompile Include="src\SC_SVM.cpp" />
+    <ClCompile Include="src\SC_Synthesis.cpp" />
+    <ClCompile Include="src\SC_Timer.cpp" />
+    <ClCompile Include="src\SC_Transform.cpp" />
+    <ClCompile Include="src\SC_TweakableParameters.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SC_Api.h" />
+    <ClInclude Include="src\SC_Aux.h" />
+    <ClInclude Include="src\SC_BaggenstossEM.h" />
+    <ClInclude Include="src\SC_BaggenstossEMex.h" />
+    <ClInclude Include="src\SC_Centroid.h" />
+    <ClInclude Include="src\SC_Centroid_Gaussian.h" />
+    <ClInclude Include="src\SC_Centroid_Point.h" />
+    <ClInclude Include="src\SC_Centroid_Signature.h" />
+    <ClInclude Include="src\SC_Classifier.h" />
+    <ClInclude Include="src\SC_Classifier_AdaBoost.h" />
+    <ClInclude Include="src\SC_Classifier_DecisionStump.h" />
+    <ClInclude Include="src\SC_Classifier_ML.h" />
+    <ClInclude Include="src\SC_Classifier_SVM.h" />
+    <ClInclude Include="src\SC_ClassifierHandler.h" />
+    <ClInclude Include="src\SC_ClassifierTree.h" />
+    <ClInclude Include="src\SC_ClassifierWithWeights.h" />
+    <ClInclude Include="src\SC_Cluster.h" />
+    <ClInclude Include="src\SC_Clusterer.h" />
+    <ClInclude Include="src\SC_Conversion.h" />
+    <ClInclude Include="src\SC_Corpus.h" />
+    <ClInclude Include="src\SC_Corpus_MAC.h" />
+    <ClInclude Include="src\SC_Corpus_MPEG7.h" />
+    <ClInclude Include="src\SC_Corpus_SCiVo.h" />
+    <ClInclude Include="src\SC_Corpus_TIMIT.h" />
+    <ClInclude Include="src\SC_Corpus_Wesley.h" />
+    <ClInclude Include="src\SC_DistanceMeasures.h" />
+    <ClInclude Include="src\SC_EMD.h" />
+    <ClInclude Include="src\SC_Enhancement.h" />
+    <ClInclude Include="src\SC_Feature_BandPeriodicity.h" />
+    <ClInclude Include="src\SC_Feature_BrightnessBandwidth.h" />
+    <ClInclude Include="src\SC_Feature_FbE.h" />
+    <ClInclude Include="src\SC_Feature_Formant.h" />
+    <ClInclude Include="src\SC_Feature_LPC.h" />
+    <ClInclude Include="src\SC_Feature_LPCresidual.h" />
+    <ClInclude Include="src\SC_Feature_LSP.h" />
+    <ClInclude Include="src\SC_Feature_MFCC.h" />
+    <ClInclude Include="src\SC_Feature_NFR.h" />
+    <ClInclude Include="src\SC_Feature_Pitch.h" />
+    <ClInclude Include="src\SC_Feature_Samples.h" />
+    <ClInclude Include="src\SC_Feature_SDP.h" />
+    <ClInclude Include="src\SC_Feature_Spectrum.h" />
+    <ClInclude Include="src\SC_Feature_SpectrumFlux.h" />
+    <ClInclude Include="src\SC_Feature_STE.h" />
+    <ClInclude Include="src\SC_Feature_SubBandPower.h" />
+    <ClInclude Include="src\SC_Feature_ZCR.h" />
+    <ClInclude Include="src\SC_FeatureHandler.h" />
+    <ClInclude Include="src\SC_Gauss.h" />
+    <ClInclude Include="src\SC_GroundTruth.h" />
+    <ClInclude Include="src\SC_GroundTruth_MAC.h" />
+    <ClInclude Include="src\SC_GroundTruth_MPEG7.h" />
+    <ClInclude Include="src\SC_GroundTruth_SCiVo.h" />
+    <ClInclude Include="src\SC_GroundTruth_TIMIT.h" />
+    <ClInclude Include="src\SC_GroundTruth_Wesley.h" />
+    <ClInclude Include="src\SC_HHT.h" />
+    <ClInclude Include="src\SC_Ini.h" />
+    <ClInclude Include="src\SC_JStreamReader.h" />
+    <ClInclude Include="src\SC_LDA.h" />
+    <ClInclude Include="src\SC_Lib.h" />
+    <ClInclude Include="src\SC_MainTasks.h" />
+    <ClInclude Include="src\SC_Matlab.h" />
+    <ClInclude Include="src\SC_MatrixFunctions.h" />
+    <ClInclude Include="src\SC_MD5.h" />
+    <ClInclude Include="src\SC_MixtureModel.h" />
+    <ClInclude Include="src\SC_MixtureModel_bGMM.h" />
+    <ClInclude Include="src\SC_MixtureModel_GMM.h" />
+    <ClInclude Include="src\SC_MixtureModel_GMM_UBM.h" />
+    <ClInclude Include="src\SC_MixtureModel_MIX2MAX.h" />
+    <ClInclude Include="src\SC_MixtureModel_MIX2MAXex.h" />
+    <ClInclude Include="src\SC_MixtureModel_MIXMAX.h" />
+    <ClInclude Include="src\SC_Model.h" />
+    <ClInclude Include="src\SC_Model_FullGauss.h" />
+    <ClInclude Include="src\SC_Model_HMM.h" />
+    <ClInclude Include="src\SC_Model_MetaGMM.h" />
+    <ClInclude Include="src\SC_Model_Pareto.h" />
+    <ClInclude Include="src\SC_Model_qGMM.h" />
+    <ClInclude Include="src\SC_Model_SVM.h" />
+    <ClInclude Include="src\SC_Model_Time.h" />
+    <ClInclude Include="src\SC_Model_VQ.h" />
+    <ClInclude Include="src\SC_ModelHandler.h" />
+    <ClInclude Include="src\SC_Partition.h" />
+    <ClInclude Include="src\SC_PDE.h" />
+    <ClInclude Include="src\SC_Resampling.h" />
+    <ClInclude Include="src\SC_Score.h" />
+    <ClInclude Include="src\SC_Score_AudioTypeClassification.h" />
+    <ClInclude Include="src\SC_Score_ChangeDetection.h" />
+    <ClInclude Include="src\SC_Score_VUv.h" />
+    <ClInclude Include="src\SC_SDP.h" />
+    <ClInclude Include="src\SC_Segmentation_AudioType.h" />
+    <ClInclude Include="src\SC_Segmentation_AudioType_LZL.h" />
+    <ClInclude Include="src\SC_Segmentation_Changes.h" />
+    <ClInclude Include="src\SC_Segmentation_Changes_KBK.h" />
+    <ClInclude Include="src\SC_Segmentation_Changes_LZW.h" />
+    <ClInclude Include="src\SC_Segmentation_Changes_Std.h" />
+    <ClInclude Include="src\SC_Segmentation_Silence.h" />
+    <ClInclude Include="src\SC_Segmentation_Silence_LNK.h" />
+    <ClInclude Include="src\SC_Segmentation_Silence_LZL.h" />
+    <ClInclude Include="src\SC_Segmentation_VUv.h" />
+    <ClInclude Include="src\SC_Segmentation_VUv_ESPS.h" />
+    <ClInclude Include="src\SC_Segmentation_VUv_LNK.h" />
+    <ClInclude Include="src\SC_SegmentationHandler.h" />
+    <ClInclude Include="src\SC_Signal.h" />
+    <ClInclude Include="src\SC_Signal_jWAVE.h" />
+    <ClInclude Include="src\SC_Signal_MPEG.h" />
+    <ClInclude Include="src\SC_Signal_NIST.h" />
+    <ClInclude Include="src\SC_Signal_WAVE.h" />
+    <ClInclude Include="src\SC_SignalHandler.h" />
+    <ClInclude Include="src\SC_Signature.h" />
+    <ClInclude Include="src\SC_SpeakerClusterer.h" />
+    <ClInclude Include="src\SC_SpeakerIdentificator.h" />
+    <ClInclude Include="src\SC_SpeakerScore.h" />
+    <ClInclude Include="src\SC_SpeakerScore_Classification.h" />
+    <ClInclude Include="src\SC_SpeakerScore_Clustering.h" />
+    <ClInclude Include="src\SC_SpeakerScore_Identification.h" />
+    <ClInclude Include="src\SC_SVM.h" />
+    <ClInclude Include="src\SC_Synthesis.h" />
+    <ClInclude Include="src\SC_Timer.h" />
+    <ClInclude Include="src\SC_Transform.h" />
+    <ClInclude Include="src\SC_TweakableParameters.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\svlib\svlib.vcxproj">
+      <Project>{c3c54efd-832b-401f-8bbf-d4e890da4b64}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties DevPartner_IsInstrumented="0" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

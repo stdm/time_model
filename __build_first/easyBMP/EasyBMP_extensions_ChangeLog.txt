@@ -1,0 +1,173 @@
+EasyBMP Extensions Package: Change Log 
+
+Library Author(s): Paul Macklin 
+  Library License: BSD (revised). See the 
+                   BSD_(revised)_license.txt file for fur-
+                   ther information.
+        Copyright: 2005-2006 by the EasyBMP Project 
+            Email: macklin01@users.sourceforge.net
+          Support: http://easybmp.sourceforge.net
+
+All changes by Paul Macklin unless otherwise noted.
+
+
+Date: 9-9-2005
+Notes for Release 0.66.00:
+    First numbered release to include all add-ons as a 
+    grouped package.
+    
+    Included EasyBMP_SimpleArray.h, EasyBMP_Geometry.h, 
+    and EasyBMP_Font.h, which were previously separately 
+    available as add-ons.
+    
+    Included the new EasyBMP_win32.h, which has major 
+    contributions from Michael Nistler.
+    
+    Included sample application, EasyBMP_win32_sample.cpp, 
+    to test Geometry, Font, and win32. This code has 
+    contributions from Michael Nistler.
+    
+    Included the new EasyBMP_OpenGL.h.
+
+    Included easybmp_opengl_sample.cpp, as a sample appli-
+    cation to test EasyBMP_OpenGL.h.
+*--------------------------------------------------------*
+Date: 10-23-2005
+Notes for Release 0.70.00:
+    Updated to the BSD (revised/modified) license.
+
+    Updated formatting of change log.
+*--------------------------------------------------------*
+Date: 9-15-2006
+Notes for Release 1.04.00:
+    Renamed Round( double ) to ebmpRound( double ) to 
+    prevent possible naming conflicts in 
+    EasyBMP_Geometry.h.
+    
+    Replaced the BYTE type with ebmpBYTE in 
+    EasyBMP_Geometry.h to ensure compatibility with recent
+    versions of EasyBMP. (Recall that BYTE was renamed to
+    ebmpBYTE to ensure 64-bit compatibility without naming
+    conflicts.)
+    
+    Added a preprocessor #ifndef to the COPYRIGHT_SYMBOL 
+    in EasyBMP_Font.h
+    
+    Separated EasyBMP_Font.h and EasyBMP_Geometry.h into 
+    *.h and *.cpp files to ensure compatibility with large
+    projects containing multiple cpp files. (In the prev-
+    ious header file-only configuration, the 
+    EasyBMP_Font.h and EasyBMP_Geometry.h functions were 
+    compiled into every object file that included them, 
+    leading to conflicts when linking the object files.) 
+    
+    Separated functions into separate cpp files for 
+    EasyBMP_win32.h, EasyBMP_OpenGL.h, and 
+    EasyBMP_SimpleArray.h. Again, this is to ensure com-
+    patibility with larger projects. 
+    
+    Removed the restriction that textures must at least 64
+    pixels wide in the CalculateOpenGLwidth() function in 
+    EasyBMP_OpenGL.cpp, as it was based on a misunder-
+    standing of the "red book" text. 
+    
+    Merged the CalculateOpenGLwidth() and 
+    CalculateOpenGLheight() functions into a single 
+    CalculateOpenGLlength() function in EasyBMP_OpenGL.cpp
+    
+    Added functions GetPixel() and SetPixel() to the 
+    EasyBMP_Texture in EasyBMP_OpenGL.* to directly change
+    texture pixels. 
+    
+    Modified the BMP_Texture:ImportBMP() function to de-l
+    ete any pre-existing texture to plug a memory hole. 
+    
+    Created a new OpenGL example to demonstrate both sta-
+    tic and changing textures. This sample has much better
+    commenting. 
+    
+    Removed the alpha channel from OpenGL texture mapping
+    to reduce complexity. Alpha channel may return in a 
+    future version.
+    
+    Split various samples into separate directories. The 
+    OpenGL sample is in OpenGL_Sample/, the Geometry/Font 
+    sample is in GeometryAndFont_Sample/, and the win32 
+    sample is in win32_sample/.
+
+    Split the font test source into multiple cpp files to
+    test including the Geometry and Font extensions in 
+    large projects with multiple source files.
+
+*--------------------------------------------------------*
+Date: 11-12-2006
+Notes for Release 1.05.00:
+    The following additions were made to 
+    EasyBMP_OpenGL.cpp and EasyBMP_OpenGL.h:
+
+    1) bool EasyBMP_Screenshot( const char* FileName );
+     
+       This function takes a screenshot and saves it to 
+       the file FileName. 
+        
+    2) bool EasyBMP_StartFilming( void );
+     
+       This function is used to start filming a movie at a
+       default frame rate of 15.0 fps. It is generally
+       best to use the EasyBMP_ToggleFilming() function 
+       instead. (See below.)
+     
+    3) bool EasyBMP_StartFilming( double fps );
+    
+       This function is used to start filming a moive at a
+       framerate of <fps> frames per second. It is gener-
+       ally best to use the EasyBMP_ToggleFilming(double)
+       function instead. (See below.)
+    
+    4) bool EasyBMP_ContinueFilming( void );
+    
+       This function is used to continue filming a movie
+       if it is detected that filming has been initializ-
+       ed. If you intend to film, you must place this 
+       function in your display() function just before or
+       after you swap buffers. It's okay to put it in your
+       idle function before you post a redisplay(), too.
+       
+    5) bool EasyBMP_EndFilming( void );
+    
+       This function is used to cease filming. Generally,
+       it's best to use the EasyBMP_ToggleFilming() and/or
+       EasyBMP_ToggleFilming(double) functions. (See be-
+       low.)
+       
+    6) bool EasyBMP_ToggleFilming( void );
+    
+       Use this function to toggle filming at a default 
+       frame rate of 15 frames per second on or off. 
+       
+    7) bool EasyBMP_ToggleFilming( double fps );
+    
+       Use this function to toggle filming at a framge 
+       rate of <fps> frames per second on or off.
+      
+    Changed the OpenGL code sample in 
+    OpenGL_Sample/EasyBMP_OpenGL_Sample.cpp in the follow-
+    ing ways:
+    
+    1) Added a keyboard function with the following keys:
+    
+       Q) Quits the demo program.
+       
+       S) Takes a screenshot and saves to screenshot.bmp
+       
+       F) Toggles filming at 15.0 frames per second on/off
+       
+       P) Pauses/Unpauses
+
+    2) Added Paused boolean variable, and modified the 
+       Idle() function to sleep if it's set to true.  
+       
+    Modified the OpenGL_Sample makefile to remove any 
+    movie frames and/or screenshot files.
+
+*--------------------------------------------------------*

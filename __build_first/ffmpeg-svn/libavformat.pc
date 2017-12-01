@@ -1,0 +1,12 @@
+prefix=/d/Data/Code/Sprecherklassifikation/dlls
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 51.12.1
+Requires:  libavcodec = 51.40.4
+Conflicts:
+Libs: -L${libdir} -lavformat  -lm
+Cflags: -I${includedir} -I${includedir}/ffmpeg

@@ -1,0 +1,314 @@
+EXPORTS
+    __dynarray_add @1
+    aac_demuxer @2 DATA
+    ac3_demuxer @3 DATA
+    ac3_muxer @4 DATA
+    adts_muxer @5 DATA
+    aiff_demuxer @6 DATA
+    aiff_muxer @7 DATA
+    amr_demuxer @8 DATA
+    amr_muxer @9 DATA
+    apc_demuxer @10 DATA
+    asf_demuxer @11 DATA
+    asf_muxer @12 DATA
+    asf_stream_muxer @13 DATA
+    au_demuxer @14 DATA
+    au_muxer @15 DATA
+    av_add_index_entry @16
+    av_alloc_format_context @17
+    av_close_input_file @18
+    av_codec_get_id @19
+    av_codec_get_tag @20
+    av_destruct_packet @21
+    av_destruct_packet_nofree @22
+    av_dup_packet @23
+    av_filename_number_test @24
+    av_find_default_stream_index @25
+    av_find_input_format @26
+    av_find_stream_info @27
+    av_gen_search @28
+    av_get_frame_filename @29
+    av_get_packet @30
+    av_gettime @31
+    av_guess_codec @32
+    av_guess_image2_codec @33
+    av_hex_dump @34
+    av_hex_dump_log @35
+    av_index_search_timestamp @36
+    av_init_packet @37
+    av_interleave_packet_per_dts @38
+    av_interleaved_write_frame @39
+    av_new_packet @40
+    av_new_stream @41
+    av_open_input_file @42
+    av_open_input_stream @43
+    av_pkt_dump @44
+    av_pkt_dump_log @45
+    av_probe_input_format @46
+    av_read_frame @47
+    av_read_packet @48
+    av_read_pause @49
+    av_read_play @50
+    av_register_all @51
+    av_register_input_format @52
+    av_register_output_format @53
+    av_seek_frame @54
+    av_seek_frame_binary @55
+    av_set_parameters @56
+    av_set_pts_info @57
+    av_update_cur_dts @58
+    av_write_frame @59
+    av_write_header @60
+    av_write_trailer @61
+    avi_demuxer @62 DATA
+    avi_muxer @63 DATA
+    avs_demuxer @64 DATA
+    bethsoftvid_demuxer @65 DATA
+    brktimegm @66
+    c93_demuxer @67 DATA
+    codec_bmp_tags @68 DATA
+    codec_get_bmp_id @69
+    codec_get_bmp_tag @70
+    codec_get_id @71
+    codec_get_tag @72
+    codec_get_wav_id @73
+    codec_get_wav_tag @74
+    codec_movaudio_tags @75 DATA
+    codec_movvideo_tags @76 DATA
+    codec_wav_tags @77 DATA
+    crc_muxer @78 DATA
+    daud_demuxer @79 DATA
+    dsicin_demuxer @80 DATA
+    dts_demuxer @81 DATA
+    dump_format @82
+    dv_assemble_frame @83
+    dv_delete_mux @84
+    dv_demuxer @85 DATA
+    dv_get_packet @86
+    dv_init_demux @87
+    dv_init_mux @88
+    dv_muxer @89 DATA
+    dv_offset_reset @90
+    dv_produce_packet @91
+    dxa_demuxer @92 DATA
+    ea_demuxer @93 DATA
+    end_tag @94
+    ff_mkv_codec_tags @95 DATA
+    ff_mov_iso639_to_lang @96
+    ff_mov_lang_to_iso639 @97
+    ff_mp4_obj_type @98 DATA
+    ff_parse_specific_params @99
+    ff_qt_default_palette_16 @100 DATA
+    ff_qt_default_palette_256 @101 DATA
+    ff_qt_default_palette_4 @102 DATA
+    ffm_demuxer @103 DATA
+    ffm_muxer @104 DATA
+    ffm_nopts @105 DATA
+    file_protocol @106 DATA
+    find_info_tag @107
+    first_iformat @108 DATA
+    first_oformat @109 DATA
+    first_protocol @110 DATA
+    flac_codec @111 DATA
+    flac_demuxer @112 DATA
+    flac_muxer @113 DATA
+    flic_demuxer @114 DATA
+    flv_demuxer @115 DATA
+    flv_muxer @116 DATA
+    fourxm_demuxer @117 DATA
+    frame_hook_add @118
+    frame_hook_process @119
+    frame_hook_release @120
+    framecrc_muxer @121 DATA
+    get_be16 @122
+    get_be24 @123
+    get_be32 @124
+    get_be64 @125
+    get_buffer @126
+    get_byte @127
+    get_checksum @128
+    get_le16 @129
+    get_le24 @130
+    get_le32 @131
+    get_le64 @132
+    get_partial_buffer @133
+    get_strz @134
+    get_wav_header @135
+    gif_demuxer @136 DATA
+    gif_muxer @137 DATA
+    guess_format @138
+    guess_stream_format @139
+    gxf_demuxer @140 DATA
+    h261_demuxer @141 DATA
+    h261_muxer @142 DATA
+    h263_demuxer @143 DATA
+    h263_muxer @144 DATA
+    h264_demuxer @145 DATA
+    h264_muxer @146 DATA
+    idcin_demuxer @147 DATA
+    image2_demuxer @148 DATA
+    image2_muxer @149 DATA
+    image2pipe_demuxer @150 DATA
+    image2pipe_muxer @151 DATA
+    ingenient_demuxer @152 DATA
+    init_checksum @153
+    init_put_byte @154
+    ipmovie_demuxer @155 DATA
+    localtime_r @156
+    m4v_demuxer @157 DATA
+    m4v_muxer @158 DATA
+    match_ext @159
+    matroska_demuxer @160 DATA
+    mjpeg_demuxer @161 DATA
+    mjpeg_muxer @162 DATA
+    mktimegm @163
+    mm_demuxer @164 DATA
+    mmf_demuxer @165 DATA
+    mmf_muxer @166 DATA
+    mov_demuxer @167 DATA
+    mov_muxer @168 DATA
+    mp2_muxer @169 DATA
+    mp3_demuxer @170 DATA
+    mp3_muxer @171 DATA
+    mp4_muxer @172 DATA
+    mpc_demuxer @173 DATA
+    mpeg1system_muxer @174 DATA
+    mpeg1vcd_muxer @175 DATA
+    mpeg1video_muxer @176 DATA
+    mpeg2dvd_muxer @177 DATA
+    mpeg2svcd_muxer @178 DATA
+    mpeg2video_muxer @179 DATA
+    mpeg2vob_muxer @180 DATA
+    mpegps_demuxer @181 DATA
+    mpegts_demuxer @182 DATA
+    mpegts_muxer @183 DATA
+    mpegts_parse_close @184
+    mpegts_parse_open @185
+    mpegts_parse_packet @186
+    mpegtsraw_demuxer @187 DATA
+    mpegvideo_demuxer @188 DATA
+    mpjpeg_muxer @189 DATA
+    mtv_demuxer @190 DATA
+    mxf_demuxer @191 DATA
+    nsv_demuxer @192 DATA
+    null_muxer @193 DATA
+    nut_demuxer @194 DATA
+    nuv_demuxer @195 DATA
+    ogg_demuxer @196 DATA
+    ogm_audio_codec @197 DATA
+    ogm_old_codec @198 DATA
+    ogm_video_codec @199 DATA
+    parse_date @200
+    parse_frame_rate @201
+    parse_image_size @202
+    pcm_alaw_demuxer @203 DATA
+    pcm_alaw_muxer @204 DATA
+    pcm_mulaw_demuxer @205 DATA
+    pcm_mulaw_muxer @206 DATA
+    pcm_read_seek @207
+    pcm_s16be_demuxer @208 DATA
+    pcm_s16be_muxer @209 DATA
+    pcm_s16le_demuxer @210 DATA
+    pcm_s16le_muxer @211 DATA
+    pcm_s8_demuxer @212 DATA
+    pcm_s8_muxer @213 DATA
+    pcm_u16be_demuxer @214 DATA
+    pcm_u16be_muxer @215 DATA
+    pcm_u16le_demuxer @216 DATA
+    pcm_u16le_muxer @217 DATA
+    pcm_u8_demuxer @218 DATA
+    pcm_u8_muxer @219 DATA
+    pipe_protocol @220 DATA
+    psp_muxer @221 DATA
+    pstrcat @222
+    pstrcpy @223
+    put_be16 @224
+    put_be24 @225
+    put_be32 @226
+    put_be64 @227
+    put_bmp_header @228
+    put_buffer @229
+    put_byte @230
+    put_flush_packet @231
+    put_le16 @232
+    put_le24 @233
+    put_le32 @234
+    put_le64 @235
+    put_strz @236
+    put_tag @237
+    put_wav_header @238
+    rawvideo_demuxer @239 DATA
+    rawvideo_muxer @240 DATA
+    register_protocol @241
+    rm_demuxer @242 DATA
+    rm_muxer @243 DATA
+    roq_demuxer @244 DATA
+    roq_muxer @245 DATA
+    segafilm_demuxer @246 DATA
+    shorten_demuxer @247 DATA
+    smacker_demuxer @248 DATA
+    small_strptime @249
+    sol_demuxer @250 DATA
+    start_tag @251
+    str_demuxer @252 DATA
+    stristart @253
+    strstart @254
+    swf_demuxer @255 DATA
+    swf_muxer @256 DATA
+    tg2_muxer @257 DATA
+    tgp_muxer @258 DATA
+    theora_codec @259 DATA
+    thp_demuxer @260 DATA
+    tiertexseq_demuxer @261 DATA
+    tta_demuxer @262 DATA
+    txd_demuxer @263 DATA
+    url_close @264
+    url_close_buf @265
+    url_close_dyn_buf @266
+    url_exist @267
+    url_fclose @268
+    url_fdopen @269
+    url_feof @270
+    url_ferror @271
+    url_fget_max_packet_size @272
+    url_fgetc @273
+    url_fgets @274
+    url_fileno @275
+    url_filesize @276
+    url_fopen @277
+    url_fprintf @278
+    url_fseek @279
+    url_fsize @280
+    url_fskip @281
+    url_ftell @282
+    url_get_filename @283
+    url_get_max_packet_size @284
+    url_interrupt_cb @285 DATA
+    url_open @286
+    url_open_buf @287
+    url_open_dyn_buf @288
+    url_open_dyn_packet_buf @289
+    url_read @290
+    url_seek @291
+    url_set_interrupt_cb @292
+    url_setbufsize @293
+    url_split @294
+    url_write @295
+    vc1_demuxer @296 DATA
+    vmd_demuxer @297 DATA
+    voc_codec_tags @298 DATA
+    voc_demuxer @299 DATA
+    voc_get_packet @300
+    voc_magic @301 DATA
+    voc_muxer @302 DATA
+    vorbis_codec @303 DATA
+    vorbis_comment @304
+    wav_codec_get_id @305
+    wav_demuxer @306 DATA
+    wav_muxer @307 DATA
+    wc3_demuxer @308 DATA
+    wsaud_demuxer @309 DATA
+    wsvqa_demuxer @310 DATA
+    wv_demuxer @311 DATA
+    yuv4mpegpipe_demuxer @312 DATA
+    yuv4mpegpipe_muxer @313 DATA

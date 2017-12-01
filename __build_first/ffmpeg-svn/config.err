@@ -1,0 +1,1678 @@
+# ./configure --prefix=/d/Data/Code/Sprecherklassifikation/dlls --libdir=/d/Data/Code/Sprecherklassifikation/dlls --incdir=/d/Data/Code/Sprecherklassifikation/dlls/ffmpeg --enable-memalign-hack --enable-shared --disable-static --disable-debug --disable-ffserver --disable-ffplay
+!::='::\'
+!C:='C:\msys\bin'
+ALLUSERSPROFILE='C:\Dokumente und Einstellungen\All Users'
+APPDATA='C:\Dokumente und Einstellungen\stadelmann\Anwendungsdaten'
+ARCH_EXT_LIST='
+    altivec
+    armv5te
+    armv6
+    iwmmxt
+    mmi
+    mmx
+    ssse3
+'
+ARCH_LIST='
+    alpha
+    armv4l
+    bfin
+    ia64
+    m68k
+    mips
+    parisc
+    powerpc
+    s390
+    sh4
+    sparc
+    sparc64
+    x86
+    x86_32
+    x86_64
+'
+BASH=/bin/sh
+BASH_ARGC=([0]="9")
+BASH_ARGV=([0]="--disable-ffplay" [1]="--disable-ffserver" [2]="--disable-debug" [3]="--disable-static" [4]="--enable-shared" [5]="--enable-memalign-hack" [6]="--incdir=/d/Data/Code/Sprecherklassifikation/dlls/ffmpeg" [7]="--libdir=/d/Data/Code/Sprecherklassifikation/dlls" [8]="--prefix=/d/Data/Code/Sprecherklassifikation/dlls")
+BASH_LINENO=([0]="0")
+BASH_SOURCE=([0]="./configure")
+BASH_VERSINFO=([0]="3" [1]="1" [2]="0" [3]="3" [4]="release" [5]="i686-pc-msys")
+BASH_VERSION='3.1.0(3)-release'
+BGCOLOR=LightYellow
+BSF_LIST='dump_extradata_bsf
+remove_extradata_bsf
+noise_bsf
+mp3_header_compress_bsf
+mp3_header_decompress_bsf
+mjpega_dump_header_bsf
+imx_dump_header_bsf'
+BUILDSUF=
+CMDLINE_SELECT='
+    
+    altivec
+    armv5te
+    armv6
+    iwmmxt
+    mmi
+    mmx
+    ssse3
+
+    
+    encoders
+    decoders
+    parsers
+    bsfs
+    muxers
+    demuxers
+    audio_beos
+    audio_oss
+    avisynth
+    beos_netserver
+    bktr
+    dc1394
+    dv1394
+    ffmpeg
+    ffplay
+    ffserver
+    gpl
+    gprof
+    ipv6
+    liba52
+    liba52bin
+    libamr
+    libamr_nb
+    libamr_wb
+    libfaac
+    libfaad
+    libfaadbin
+    libgsm
+    libmp3lame
+    libnut
+    libogg
+    libtheora
+    libvorbis
+    libx264
+    libxvid
+    memalign_hack
+    mpegaudio_hp
+    network
+    powerpc_perf
+    pp
+    protocols
+    swscaler
+    vhook
+    v4l
+    v4l2
+    x11grab
+    zlib
+
+    
+    beosthreads
+    os2threads
+    pthreads
+    w32threads
+
+    debug
+    extra_warnings
+    shared
+    static
+'
+COLORFGBG='default;default'
+COLORTERM=rxvt
+COMMONPROGRAMFILES='C:\Programme\Gemeinsame Dateien'
+COMPUTERNAME=PC12758
+COMSPEC='C:\WINDOWS\system32\cmd.exe'
+CONFIG_LIST='
+    encoders
+    decoders
+    parsers
+    bsfs
+    muxers
+    demuxers
+    audio_beos
+    audio_oss
+    avisynth
+    beos_netserver
+    bktr
+    dc1394
+    dv1394
+    ffmpeg
+    ffplay
+    ffserver
+    gpl
+    gprof
+    ipv6
+    liba52
+    liba52bin
+    libamr
+    libamr_nb
+    libamr_wb
+    libfaac
+    libfaad
+    libfaadbin
+    libgsm
+    libmp3lame
+    libnut
+    libogg
+    libtheora
+    libvorbis
+    libx264
+    libxvid
+    memalign_hack
+    mpegaudio_hp
+    network
+    powerpc_perf
+    pp
+    protocols
+    swscaler
+    vhook
+    v4l
+    v4l2
+    x11grab
+    zlib
+'
+DECODER_LIST='aasc_decoder
+asv1_decoder
+asv2_decoder
+avs_decoder
+bethsoftvid_decoder
+bmp_decoder
+c93_decoder
+cavs_decoder
+cinepak_decoder
+cljr_decoder
+cscd_decoder
+cyuv_decoder
+dnxhd_decoder
+dsicinvideo_decoder
+dvvideo_decoder
+dxa_decoder
+eightbps_decoder
+ffv1_decoder
+ffvhuff_decoder
+flashsv_decoder
+flic_decoder
+flv_decoder
+fourxm_decoder
+fraps_decoder
+gif_decoder
+h261_decoder
+h263_decoder
+h263i_decoder
+h264_decoder
+huffyuv_decoder
+idcin_decoder
+indeo2_decoder
+indeo3_decoder
+interplay_video_decoder
+jpegls_decoder
+kmvc_decoder
+loco_decoder
+mdec_decoder
+mjpeg_decoder
+mjpegb_decoder
+mmvideo_decoder
+mpeg_xvmc_decoder
+mpeg1video_decoder
+mpeg2video_decoder
+mpeg4_decoder
+mpegvideo_decoder
+msmpeg4v1_decoder
+msmpeg4v2_decoder
+msmpeg4v3_decoder
+msrle_decoder
+msvideo1_decoder
+mszh_decoder
+nuv_decoder
+png_decoder
+ptx_decoder
+qdraw_decoder
+qpeg_decoder
+qtrle_decoder
+rawvideo_decoder
+roq_decoder
+rpza_decoder
+rv10_decoder
+rv20_decoder
+sgi_decoder
+smacker_decoder
+smc_decoder
+snow_decoder
+sp5x_decoder
+svq1_decoder
+svq3_decoder
+targa_decoder
+theora_decoder
+thp_decoder
+tiertexseqvideo_decoder
+tiff_decoder
+truemotion1_decoder
+truemotion2_decoder
+tscc_decoder
+txd_decoder
+ulti_decoder
+vc1_decoder
+vcr1_decoder
+vmdvideo_decoder
+vmnc_decoder
+vp3_decoder
+vp5_decoder
+vp6_decoder
+vp6f_decoder
+vqa_decoder
+wmv1_decoder
+wmv2_decoder
+wmv3_decoder
+wnv1_decoder
+xan_wc3_decoder
+xl_decoder
+zlib_decoder
+zmbv_decoder
+mpeg4aac_decoder
+alac_decoder
+atrac3_decoder
+cook_decoder
+dca_decoder
+dsicinaudio_decoder
+flac_decoder
+imc_decoder
+libamr_nb_decoder
+libamr_wb_decoder
+liba52_decoder
+libfaad_decoder
+libgsm_decoder
+libgsm_ms_decoder
+libvorbis_decoder
+mace3_decoder
+mace6_decoder
+mp2_decoder
+mp3_decoder
+mp3adu_decoder
+mp3on4_decoder
+mpc7_decoder
+qdm2_decoder
+ra_144_decoder
+ra_288_decoder
+shorten_decoder
+smackaud_decoder
+sonic_decoder
+truespeech_decoder
+tta_decoder
+vmdaudio_decoder
+vorbis_decoder
+wavpack_decoder
+wmav1_decoder
+wmav2_decoder
+ws_snd1_decoder
+pcm_alaw_decoder
+pcm_mulaw_decoder
+pcm_s8_decoder
+pcm_s16be_decoder
+pcm_s16le_decoder
+pcm_s24be_decoder
+pcm_s24daud_decoder
+pcm_s24le_decoder
+pcm_s32be_decoder
+pcm_s32le_decoder
+pcm_u8_decoder
+pcm_u16be_decoder
+pcm_u16le_decoder
+pcm_u24be_decoder
+pcm_u24le_decoder
+pcm_u32be_decoder
+pcm_u32le_decoder
+interplay_dpcm_decoder
+roq_dpcm_decoder
+sol_dpcm_decoder
+xan_dpcm_decoder
+adpcm_4xm_decoder
+adpcm_adx_decoder
+adpcm_ct_decoder
+adpcm_ea_decoder
+adpcm_g726_decoder
+adpcm_ima_dk3_decoder
+adpcm_ima_dk4_decoder
+adpcm_ima_qt_decoder
+adpcm_ima_smjpeg_decoder
+adpcm_ima_wav_decoder
+adpcm_ima_ws_decoder
+adpcm_ms_decoder
+adpcm_sbpro_2_decoder
+adpcm_sbpro_3_decoder
+adpcm_sbpro_4_decoder
+adpcm_swf_decoder
+adpcm_thp_decoder
+adpcm_xa_decoder
+adpcm_yamaha_decoder
+dvbsub_decoder
+dvdsub_decoder'
+DEMUXER_LIST='aac_demuxer
+ac3_demuxer
+aiff_demuxer
+amr_demuxer
+apc_demuxer
+asf_demuxer
+au_demuxer
+audio_demuxer
+avi_demuxer
+avs_demuxer
+bethsoftvid_demuxer
+c93_demuxer
+daud_demuxer
+dc1394_demuxer
+dsicin_demuxer
+dts_demuxer
+dv_demuxer
+dv1394_demuxer
+dxa_demuxer
+ea_demuxer
+ffm_demuxer
+flac_demuxer
+flic_demuxer
+flv_demuxer
+fourxm_demuxer
+gif_demuxer
+gxf_demuxer
+h261_demuxer
+h263_demuxer
+h264_demuxer
+idcin_demuxer
+image2_demuxer
+image2pipe_demuxer
+ingenient_demuxer
+ipmovie_demuxer
+libnut_demuxer
+m4v_demuxer
+matroska_demuxer
+mjpeg_demuxer
+mm_demuxer
+mmf_demuxer
+mov_demuxer
+mp3_demuxer
+mpc_demuxer
+mpegps_demuxer
+mpegts_demuxer
+mpegtsraw_demuxer
+mpegvideo_demuxer
+mtv_demuxer
+mxf_demuxer
+nsv_demuxer
+nut_demuxer
+nuv_demuxer
+ogg_demuxer
+pcm_alaw_demuxer
+pcm_mulaw_demuxer
+pcm_s16be_demuxer
+pcm_s16le_demuxer
+pcm_s8_demuxer
+pcm_u16be_demuxer
+pcm_u16le_demuxer
+pcm_u8_demuxer
+rawvideo_demuxer
+rm_demuxer
+roq_demuxer
+redir_demuxer
+rtsp_demuxer
+sdp_demuxer
+segafilm_demuxer
+shorten_demuxer
+smacker_demuxer
+sol_demuxer
+str_demuxer
+swf_demuxer
+thp_demuxer
+tiertexseq_demuxer
+tta_demuxer
+txd_demuxer
+v4l2_demuxer
+vc1_demuxer
+video_grab_bktr_demuxer
+video_grab_v4l_demuxer
+vmd_demuxer
+voc_demuxer
+wav_demuxer
+wc3_demuxer
+wsaud_demuxer
+wsvqa_demuxer
+wv_demuxer
+x11_grab_device_demuxer
+yuv4mpegpipe_demuxer'
+DEVENVDIR='C:\Programme\Microsoft Visual Studio .NET 2003\Common7\IDE'
+DIRSTACK=()
+DISPLAY=:0
+E1=0
+E2=1
+ENCODER_LIST='asv1_encoder
+asv2_encoder
+bmp_encoder
+dvvideo_encoder
+ffv1_encoder
+ffvhuff_encoder
+flashsv_encoder
+flv_encoder
+gif_encoder
+h261_encoder
+h263_encoder
+h263p_encoder
+huffyuv_encoder
+jpegls_encoder
+libx264_encoder
+libxvid_encoder
+ljpeg_encoder
+mjpeg_encoder
+mpeg1video_encoder
+mpeg2video_encoder
+mpeg4_encoder
+msmpeg4v1_encoder
+msmpeg4v2_encoder
+msmpeg4v3_encoder
+pam_encoder
+pbm_encoder
+pgm_encoder
+pgmyuv_encoder
+png_encoder
+ppm_encoder
+rawvideo_encoder
+rv10_encoder
+rv20_encoder
+sgi_encoder
+snow_encoder
+svq1_encoder
+targa_encoder
+tiff_encoder
+wmv1_encoder
+wmv2_encoder
+zlib_encoder
+zmbv_encoder
+ac3_encoder
+flac_encoder
+libamr_nb_encoder
+libamr_wb_encoder
+libfaac_encoder
+libgsm_encoder
+libgsm_ms_encoder
+libmp3lame_encoder
+libtheora_encoder
+libvorbis_encoder
+mp2_encoder
+sonic_encoder
+sonic_ls_encoder
+vorbis_encoder
+wmav1_encoder
+wmav2_encoder
+pcm_alaw_encoder
+pcm_mulaw_encoder
+pcm_s8_encoder
+pcm_s16be_encoder
+pcm_s16le_encoder
+pcm_s24be_encoder
+pcm_s24daud_encoder
+pcm_s24le_encoder
+pcm_s32be_encoder
+pcm_s32le_encoder
+pcm_u8_encoder
+pcm_u16be_encoder
+pcm_u16le_encoder
+pcm_u24be_encoder
+pcm_u24le_encoder
+pcm_u32be_encoder
+pcm_u32le_encoder
+roq_dpcm_encoder
+adpcm_4xm_encoder
+adpcm_adx_encoder
+adpcm_ct_encoder
+adpcm_ea_encoder
+adpcm_g726_encoder
+adpcm_ima_dk3_encoder
+adpcm_ima_dk4_encoder
+adpcm_ima_qt_encoder
+adpcm_ima_smjpeg_encoder
+adpcm_ima_wav_encoder
+adpcm_ima_ws_encoder
+adpcm_ms_encoder
+adpcm_sbpro_2_encoder
+adpcm_sbpro_3_encoder
+adpcm_sbpro_4_encoder
+adpcm_swf_encoder
+adpcm_xa_encoder
+adpcm_yamaha_encoder
+dvbsub_encoder
+dvdsub_encoder'
+EUID=500
+EXESUF=.exe
+FFLDFLAGS=
+FFMPEG_CONFIGURATION='--prefix=/d/Data/Code/Sprecherklassifikation/dlls --libdir=/d/Data/Code/Sprecherklassifikation/dlls --incdir=/d/Data/Code/Sprecherklassifikation/dlls/ffmpeg --enable-memalign-hack --enable-shared --disable-static --disable-debug --disable-ffserver --disable-ffplay'
+FFSERVERLDFLAGS=-Wl,-E
+FGCOLOR=Navy
+FP_NO_HOST_CHECK=NO
+FRAMEWORKDIR='C:\WINDOWS\Microsoft.NET\Framework'
+FRAMEWORKSDKDIR='C:\Programme\Microsoft Visual Studio .NET 2003\SDK\v1.1'
+FRAMEWORKVERSION=v1.1.4322
+GROUPS=()
+HAVE_LIST='
+    
+    altivec
+    armv5te
+    armv6
+    iwmmxt
+    mmi
+    mmx
+    ssse3
+
+    
+    beosthreads
+    os2threads
+    pthreads
+    w32threads
+
+    altivec_h
+    arpa_inet_h
+    byteswap_h
+    cmov
+    dcbzl
+    dev_bktr_ioctl_bt848_h
+    dev_bktr_ioctl_meteor_h
+    dev_ic_bt8xx_h
+    dev_video_meteor_ioctl_meteor_h
+    dev_video_bktr_ioctl_bt848_h
+    dlfcn_h
+    dlopen
+    ebp_available
+    ebx_available
+    fast_64bit
+    fast_cmov
+    fast_unaligned
+    freetype2
+    imlib2
+    inet_aton
+    localtime_r
+    lrintf
+    machine_ioctl_bt848_h
+    machine_ioctl_meteor_h
+    malloc_h
+    memalign
+    mlib
+    os2
+    ppc64
+    sdl
+    sdl_video_size
+    soundcard_h
+    sys_poll_h
+    sys_soundcard_h
+    threads
+'
+HISTFILE=/home/stadelmann/.bash_history
+HOME=/home/stadelmann
+HOMEDRIVE=C:
+HOMEPATH='\'
+HOSTNAME=PC12758
+HOSTTYPE=i686
+IFS=' 	
+'
+INCLUDE='C:\Programme\Microsoft Visual Studio .NET 2003\VC7\ATLMFC\INCLUDE;C:\Programme\Microsoft Visual Studio .NET 2003\VC7\INCLUDE;C:\Programme\Microsoft Visual Studio .NET 2003\VC7\PlatformSDK\include\prerelease;C:\Programme\Microsoft Visual Studio .NET 2003\VC7\PlatformSDK\include;C:\Programme\Microsoft Visual Studio .NET 2003\SDK\v1.1\include;'
+JAVA_HOME='C:\Programme\Java\jre1.5.0_11'
+LDCONFIG=ldconfig
+LDLATEFLAGS='-Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil'
+LIB='$(LIBPREF)$(NAME)$(LIBSUF)'
+LIBOBJFLAGS=
+LIBPREF=lib
+LIBSUF=.a
+LIB_INSTALL_EXTRA_CMD='$(RANLIB) "$(libdir)/$(LIB)"'
+LOGNAME=stadelmann
+LOGONSERVER='\\PC12758'
+MACHTYPE=i686-pc-msys
+MAKE_MODE=unix
+MINGW32BGCOLOR=LightYellow
+MINGW32FGCOLOR=Navy
+MSVCDIR='C:\Programme\Microsoft Visual Studio .NET 2003\VC7'
+MSYSBGCOLOR=White
+MSYSCON=rxvt.exe
+MSYSFGCOLOR=Black
+MSYSTEM=MINGW32
+MUPAD_LIGHT_250='C:\Programme\SciFace\MuPAD Light 2.5.3'
+MUXER_LIST='ac3_muxer
+adts_muxer
+aiff_muxer
+amr_muxer
+asf_muxer
+asf_stream_muxer
+au_muxer
+audio_muxer
+avi_muxer
+crc_muxer
+dv_muxer
+ffm_muxer
+flac_muxer
+flv_muxer
+framecrc_muxer
+gif_muxer
+gxf_muxer
+h261_muxer
+h263_muxer
+h264_muxer
+image2_muxer
+image2pipe_muxer
+libnut_muxer
+m4v_muxer
+mjpeg_muxer
+mmf_muxer
+mov_muxer
+mp2_muxer
+mp3_muxer
+mp4_muxer
+mpeg1system_muxer
+mpeg1vcd_muxer
+mpeg1video_muxer
+mpeg2dvd_muxer
+mpeg2svcd_muxer
+mpeg2video_muxer
+mpeg2vob_muxer
+mpegts_muxer
+mpjpeg_muxer
+null_muxer
+ogg_muxer
+pcm_alaw_muxer
+pcm_mulaw_muxer
+pcm_s16be_muxer
+pcm_s16le_muxer
+pcm_s8_muxer
+pcm_u16be_muxer
+pcm_u16le_muxer
+pcm_u8_muxer
+psp_muxer
+rawvideo_muxer
+rm_muxer
+roq_muxer
+rtp_muxer
+swf_muxer
+tg2_muxer
+tgp_muxer
+voc_muxer
+wav_muxer
+yuv4mpegpipe_muxer'
+NUMBER_OF_PROCESSORS=1
+OPTERR=1
+OPTIND=1
+OS=Windows_NT
+OSTYPE=msys
+PARSER_LIST='aac_parser
+ac3_parser
+cavsvideo_parser
+dca_parser
+dvbsub_parser
+dvdsub_parser
+h261_parser
+h263_parser
+h264_parser
+mjpeg_parser
+mpeg4video_parser
+mpegaudio_parser
+mpegvideo_parser
+pnm_parser
+vc1_parser'
+PATH='.:/usr/local/bin:/mingw/bin:/bin:/c/Programme/Microsoft Visual Studio .NET 2003/Common7/IDE:/c/Programme/Microsoft Visual Studio .NET 2003/VC7/BIN:/c/Programme/Microsoft Visual Studio .NET 2003/Common7/Tools:/c/Programme/Microsoft Visual Studio .NET 2003/Common7/Tools/bin/prerelease:/c/Programme/Microsoft Visual Studio .NET 2003/Common7/Tools/bin:/c/Programme/Microsoft Visual Studio .NET 2003/SDK/v1.1/bin:/c/WINDOWS/Microsoft.NET/Framework/v1.1.4322:/c/Programme/MiKTeX 2.5/miktex/bin:/c/Programme/ThinkPad/Utilities:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/Programme/ATI Technologies/ATI Control Panel:/c/programme/matlab/bin/win32:/c/Programme/IDM Computer Solutions/UltraEdit-32:/c/Programme/InfoZIP:/c/Programme:/c/Programme/sox:/d/Data/Code/Sprecherklassifikation/dlls:/c/programme/gnuwin32/bin:.'
+PATHEXT='.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH'
+PIPESTATUS=([0]="0")
+POSIXLY_CORRECT=y
+PPID=2804
+PREFIX=/d/Data/Code/Sprecherklassifikation/dlls
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_IDENTIFIER='x86 Family 6 Model 13 Stepping 8, GenuineIntel'
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=0d08
+PROGRAMFILES='C:\Programme'
+PROMPT='$P$G'
+PROTOCOL_LIST='file_protocol
+http_protocol
+pipe_protocol
+rtp_protocol
+tcp_protocol
+udp_protocol'
+PS4='+ '
+PWD=/d/Data/Code/ffmpeg-svn
+RANDOM=2814
+SESSIONNAME=Console
+SHELL=/bin/sh
+SHELLOPTS=braceexpand:hashall:interactive-comments:posix
+SHFLAGS='-shared -Wl,--output-def,$(@:.dll=.def),--out-implib,lib$(SLIBNAME:$(SLIBSUF)=.dll.a) -Wl,--enable-runtime-pseudo-reloc -Wl,--enable-auto-image-base'
+SHLVL=3
+SLIBNAME='$(SLIBPREF)$(NAME)$(SLIBSUF)'
+SLIBNAME_WITH_MAJOR='$(SLIBPREF)$(NAME)-$(LIBMAJOR)$(SLIBSUF)'
+SLIBNAME_WITH_VERSION='$(SLIBPREF)$(NAME)-$(LIBVERSION)$(SLIBSUF)'
+SLIBPREF=
+SLIBSUF=.dll
+SLIB_EXTRA_CMD='-lib /machine:i386 /def:$(@:.dll=.def)'
+SLIB_INSTALL_EXTRA_CMD='-install -m 644 $(SLIBNAME_WITH_MAJOR:$(SLIBSUF)=.lib) "$(shlibdir)/$(SLIBNAME_WITH_MAJOR:$(SLIBSUF)=.lib)"'
+SMA='C:\Programme\ThinkVantage\SMA\'
+SYSTEMDRIVE=C:
+SYSTEMROOT='C:\WINDOWS'
+TEMP=/tmp
+TERM=msys
+THREADS_LIST='
+    beosthreads
+    os2threads
+    pthreads
+    w32threads
+'
+TMP=/tmp
+TMPC=/tmp/ffmpeg-conf-4515-2068-12006.c
+TMPDIR1=/tmp
+TMPE=/tmp/ffmpeg-conf-4375-2068-29541
+TMPH=/tmp/ffmpeg-conf-30985-2068-2814.h
+TMPO=/tmp/ffmpeg-conf-22928-2068-3046.o
+TMPS=/tmp/ffmpeg-conf-10471-2068-11177.S
+UID=500
+USERDOMAIN=PC12758
+USERNAME=stadelmann
+USERPROFILE='C:\Dokumente und Einstellungen\stadelmann'
+VCINSTALLDIR='C:\Programme\Microsoft Visual Studio .NET 2003'
+VHOOKLIBS='-lavformat$(BUILDSUF) -lavcodec$(BUILDSUF) -lswscale$(BUILDSUF) -lavutil$(BUILDSUF) $(EXTRALIBS)'
+VHOOKSHFLAGS='-shared -L$(BUILD_ROOT)/libavformat -L$(BUILD_ROOT)/libavcodec -L$(BUILD_ROOT)/libswscale -L$(BUILD_ROOT)/libavutil'
+VS71COMNTOOLS='C:\Programme\Microsoft Visual Studio .NET 2003\Common7\Tools\'
+VSINSTALLDIR='C:\Programme\Microsoft Visual Studio .NET 2003\Common7\IDE'
+WD='C:\msys\\bin\'
+WINDIR='C:\WINDOWS'
+WINDOWID=167838920
+_=--disable-ffplay
+aac_demuxer=yes
+aac_parser=yes
+aasc_decoder=yes
+ac3_demuxer=yes
+ac3_demuxer_deps=ac3_parser
+ac3_encoder=yes
+ac3_muxer=yes
+ac3_parser=yes
+action=disable
+adpcm_4xm_decoder=yes
+adpcm_4xm_encoder=yes
+adpcm_adx_decoder=yes
+adpcm_adx_encoder=yes
+adpcm_ct_decoder=yes
+adpcm_ct_encoder=yes
+adpcm_ea_decoder=yes
+adpcm_ea_encoder=yes
+adpcm_g726_decoder=yes
+adpcm_g726_encoder=yes
+adpcm_ima_dk3_decoder=yes
+adpcm_ima_dk3_encoder=yes
+adpcm_ima_dk4_decoder=yes
+adpcm_ima_dk4_encoder=yes
+adpcm_ima_qt_decoder=yes
+adpcm_ima_qt_encoder=yes
+adpcm_ima_smjpeg_decoder=yes
+adpcm_ima_smjpeg_encoder=yes
+adpcm_ima_wav_decoder=yes
+adpcm_ima_wav_encoder=yes
+adpcm_ima_ws_decoder=yes
+adpcm_ima_ws_encoder=yes
+adpcm_ms_decoder=yes
+adpcm_ms_encoder=yes
+adpcm_sbpro_2_decoder=yes
+adpcm_sbpro_2_encoder=yes
+adpcm_sbpro_3_decoder=yes
+adpcm_sbpro_3_encoder=yes
+adpcm_sbpro_4_decoder=yes
+adpcm_sbpro_4_encoder=yes
+adpcm_swf_decoder=yes
+adpcm_swf_encoder=yes
+adpcm_thp_decoder=yes
+adpcm_xa_decoder=yes
+adpcm_xa_encoder=yes
+adpcm_yamaha_decoder=yes
+adpcm_yamaha_encoder=yes
+adts_muxer=yes
+aiff_demuxer=yes
+aiff_muxer=yes
+alac_decoder=yes
+altivec_deps=powerpc
+amr_demuxer=yes
+amr_muxer=yes
+apc_demuxer=yes
+ar=ar
+arch=x86_32
+armv5te_deps=armv4l
+armv6_deps=armv4l
+asf_demuxer=yes
+asf_muxer=yes
+asf_stream_muxer=yes
+asmalign_pot=unknown
+asv1_decoder=yes
+asv1_encoder=yes
+asv2_decoder=yes
+asv2_encoder=yes
+atrac3_decoder=yes
+au_demuxer=yes
+au_muxer=yes
+audio_demuxer=yes
+audio_demuxer_deps_any='audio_oss audio_beos'
+audio_muxer=yes
+audio_muxer_deps_any='audio_oss audio_beos'
+audio_oss=yes
+avi_demuxer=yes
+avi_muxer=yes
+avs_decoder=yes
+avs_demuxer=yes
+bethsoftvid_decoder=yes
+bethsoftvid_demuxer=yes
+bindir='${PREFIX}/bin'
+bktr=yes
+bmp_decoder=yes
+bmp_encoder=yes
+c93_decoder=yes
+c93_demuxer=yes
+cavs_decoder=yes
+cavsvideo_parser=yes
+cc=gcc
+cinepak_decoder=yes
+cljr_decoder=yes
+cook_decoder=yes
+cpu=generic
+crc_muxer=yes
+cross_compile=no
+cross_prefix=
+cscd_decoder=yes
+cyuv_decoder=yes
+daud_demuxer=yes
+dc1394_demuxer=yes
+dc1394_demuxer_deps=dc1394
+dca_decoder=yes
+dca_parser=yes
+debug=no
+dnxhd_decoder=yes
+dostrip=yes
+dsicin_demuxer=yes
+dsicinaudio_decoder=yes
+dsicinvideo_decoder=yes
+dts_demuxer=yes
+dump_extradata_bsf=yes
+dv1394=no
+dv1394_demuxer=yes
+dv1394_demuxer_deps=dv1394
+dv_demuxer=yes
+dv_muxer=yes
+dvbsub_decoder=yes
+dvbsub_encoder=yes
+dvbsub_parser=yes
+dvdsub_decoder=yes
+dvdsub_encoder=yes
+dvdsub_parser=yes
+dvvideo_decoder=yes
+dvvideo_encoder=yes
+dxa_decoder=yes
+dxa_decoder_deps=zlib
+dxa_demuxer=yes
+ea_demuxer=yes
+eightbps_decoder=yes
+extralibs=' -lm'
+fast_unaligned=yes
+ffm_demuxer=yes
+ffm_muxer=yes
+ffmpeg=yes
+ffplay=no
+ffplay_deps=sdl
+ffserver=no
+ffserver_deps='muxers rtp_protocol'
+ffv1_decoder=yes
+ffv1_encoder=yes
+ffvhuff_decoder=yes
+ffvhuff_encoder=yes
+file_protocol=yes
+flac_decoder=yes
+flac_demuxer=yes
+flac_encoder=yes
+flac_muxer=yes
+flashsv_decoder=yes
+flashsv_decoder_deps=zlib
+flashsv_encoder=yes
+flashsv_encoder_deps=zlib
+flic_decoder=yes
+flic_demuxer=yes
+flv_decoder=yes
+flv_decoder_deps=h263_decoder
+flv_demuxer=yes
+flv_encoder=yes
+flv_muxer=yes
+fourxm_decoder=yes
+fourxm_demuxer=yes
+framecrc_muxer=yes
+fraps_decoder=yes
+gif_decoder=yes
+gif_demuxer=yes
+gif_encoder=yes
+gif_muxer=yes
+gpl=no
+gxf_demuxer=yes
+gxf_muxer=yes
+gxf_muxer_deps=gpl
+h261_decoder=yes
+h261_demuxer=yes
+h261_encoder=yes
+h261_muxer=yes
+h261_parser=yes
+h263_decoder=yes
+h263_decoder_deps='h263_parser mpeg4video_parser'
+h263_demuxer=yes
+h263_encoder=yes
+h263_muxer=yes
+h263_parser=yes
+h263i_decoder=yes
+h263i_decoder_deps=h263_decoder
+h263p_encoder=yes
+h264_decoder=yes
+h264_decoder_deps=h264_parser
+h264_demuxer=yes
+h264_muxer=yes
+h264_parser=yes
+http_protocol=yes
+http_protocol_deps=network
+huffyuv_decoder=yes
+huffyuv_encoder=yes
+idcin_decoder=yes
+idcin_demuxer=yes
+image2_demuxer=yes
+image2_muxer=yes
+image2pipe_demuxer=yes
+image2pipe_muxer=yes
+imc_decoder=yes
+imx_dump_header_bsf=yes
+incdir=/d/Data/Code/Sprecherklassifikation/dlls/ffmpeg
+indeo2_decoder=yes
+indeo3_decoder=yes
+ingenient_demuxer=yes
+interplay_dpcm_decoder=yes
+interplay_video_decoder=yes
+ipmovie_demuxer=yes
+ipv6=yes
+iwmmxt_deps=armv4l
+jpegls_decoder=yes
+jpegls_encoder=yes
+kmvc_decoder=yes
+liba52_decoder=yes
+liba52_decoder_deps=liba52
+libamr_nb_decoder=yes
+libamr_nb_decoder_deps=libamr_nb
+libamr_nb_encoder=yes
+libamr_nb_encoder_deps=libamr_nb
+libamr_wb_decoder=yes
+libamr_wb_decoder_deps=libamr_wb
+libamr_wb_encoder=yes
+libamr_wb_encoder_deps=libamr_wb
+libdir=/d/Data/Code/Sprecherklassifikation/dlls
+libfaac_encoder=yes
+libfaac_encoder_deps=libfaac
+libfaad_decoder=yes
+libfaad_decoder_deps=libfaad
+libgsm_decoder=yes
+libgsm_decoder_deps=libgsm
+libgsm_encoder=yes
+libgsm_encoder_deps=libgsm
+libgsm_ms_decoder=yes
+libgsm_ms_decoder_deps=libgsm
+libgsm_ms_encoder=yes
+libgsm_ms_encoder_deps=libgsm
+libmp3lame_encoder=yes
+libmp3lame_encoder_deps=libmp3lame
+libnut_demuxer=yes
+libnut_demuxer_deps=libnut
+libnut_muxer=yes
+libnut_muxer_deps=libnut
+libtheora_encoder=yes
+libtheora_encoder_deps=libtheora
+libvorbis_decoder=yes
+libvorbis_decoder_deps=libvorbis
+libvorbis_encoder=yes
+libvorbis_encoder_deps=libvorbis
+libx264_encoder=yes
+libx264_encoder_deps=libx264
+libxvid_encoder=yes
+libxvid_encoder_deps=libxvid
+ljpeg_encoder=yes
+loco_decoder=yes
+logfile=config.err
+logging=yes
+m4v_demuxer=yes
+m4v_muxer=yes
+mace3_decoder=yes
+mace6_decoder=yes
+make=make
+mandir='${PREFIX}/man'
+matroska_demuxer=yes
+mdec_decoder=yes
+memalign_hack=yes
+mjpeg_decoder=yes
+mjpeg_demuxer=yes
+mjpeg_encoder=yes
+mjpeg_muxer=yes
+mjpeg_parser=yes
+mjpega_dump_header_bsf=yes
+mjpegb_decoder=yes
+mm_demuxer=yes
+mmf_demuxer=yes
+mmf_muxer=yes
+mmi_deps=mips
+mmvideo_decoder=yes
+mmx_deps=x86
+mov_demuxer=yes
+mov_muxer=yes
+mp2_decoder=yes
+mp2_encoder=yes
+mp2_muxer=yes
+mp3_decoder=yes
+mp3_demuxer=yes
+mp3_demuxer_deps=mpegaudio_parser
+mp3_header_compress_bsf=yes
+mp3_header_decompress_bsf=yes
+mp3_muxer=yes
+mp3adu_decoder=yes
+mp3on4_decoder=yes
+mp4_muxer=yes
+mpc7_decoder=yes
+mpc_demuxer=yes
+mpeg1system_muxer=yes
+mpeg1vcd_muxer=yes
+mpeg1video_decoder=yes
+mpeg1video_encoder=yes
+mpeg1video_muxer=yes
+mpeg2dvd_muxer=yes
+mpeg2svcd_muxer=yes
+mpeg2video_decoder=yes
+mpeg2video_encoder=yes
+mpeg2video_muxer=yes
+mpeg2vob_muxer=yes
+mpeg4_decoder=yes
+mpeg4_decoder_deps=h263_decoder
+mpeg4_encoder=yes
+mpeg4aac_decoder=yes
+mpeg4aac_decoder_deps=libfaad
+mpeg4video_parser=yes
+mpeg_xvmc_decoder=yes
+mpeg_xvmc_decoder_deps=xvmc
+mpegaudio_hp=yes
+mpegaudio_parser=yes
+mpegps_demuxer=yes
+mpegts_demuxer=yes
+mpegts_muxer=yes
+mpegtsraw_demuxer=yes
+mpegvideo_decoder=yes
+mpegvideo_demuxer=yes
+mpegvideo_parser=yes
+mpjpeg_muxer=yes
+msmpeg4v1_decoder=yes
+msmpeg4v1_decoder_deps=h263_decoder
+msmpeg4v1_encoder=yes
+msmpeg4v2_decoder=yes
+msmpeg4v2_decoder_deps=h263_decoder
+msmpeg4v2_encoder=yes
+msmpeg4v3_decoder=yes
+msmpeg4v3_decoder_deps=h263_decoder
+msmpeg4v3_encoder=yes
+msrle_decoder=yes
+msvideo1_decoder=yes
+mszh_decoder=yes
+mtv_demuxer=yes
+mxf_demuxer=yes
+network=no
+noise_bsf=yes
+nsv_demuxer=yes
+null_muxer=yes
+nut_demuxer=yes
+nuv_decoder=yes
+nuv_demuxer=yes
+ogg_demuxer=yes
+ogg_muxer=yes
+ogg_muxer_deps=libogg
+opt=x86_32
+optimize=yes
+option=ffplay
+optval=--disable-ffplay
+osextralibs=-lm
+pam_encoder=yes
+pbm_encoder=yes
+pcm_alaw_decoder=yes
+pcm_alaw_demuxer=yes
+pcm_alaw_encoder=yes
+pcm_alaw_muxer=yes
+pcm_mulaw_decoder=yes
+pcm_mulaw_demuxer=yes
+pcm_mulaw_encoder=yes
+pcm_mulaw_muxer=yes
+pcm_s16be_decoder=yes
+pcm_s16be_demuxer=yes
+pcm_s16be_encoder=yes
+pcm_s16be_muxer=yes
+pcm_s16le_decoder=yes
+pcm_s16le_demuxer=yes
+pcm_s16le_encoder=yes
+pcm_s16le_muxer=yes
+pcm_s24be_decoder=yes
+pcm_s24be_encoder=yes
+pcm_s24daud_decoder=yes
+pcm_s24daud_encoder=yes
+pcm_s24le_decoder=yes
+pcm_s24le_encoder=yes
+pcm_s32be_decoder=yes
+pcm_s32be_encoder=yes
+pcm_s32le_decoder=yes
+pcm_s32le_encoder=yes
+pcm_s8_decoder=yes
+pcm_s8_demuxer=yes
+pcm_s8_encoder=yes
+pcm_s8_muxer=yes
+pcm_u16be_decoder=yes
+pcm_u16be_demuxer=yes
+pcm_u16be_encoder=yes
+pcm_u16be_muxer=yes
+pcm_u16le_decoder=yes
+pcm_u16le_demuxer=yes
+pcm_u16le_encoder=yes
+pcm_u16le_muxer=yes
+pcm_u24be_decoder=yes
+pcm_u24be_encoder=yes
+pcm_u24le_decoder=yes
+pcm_u24le_encoder=yes
+pcm_u32be_decoder=yes
+pcm_u32be_encoder=yes
+pcm_u32le_decoder=yes
+pcm_u32le_encoder=yes
+pcm_u8_decoder=yes
+pcm_u8_demuxer=yes
+pcm_u8_encoder=yes
+pcm_u8_muxer=yes
+pgm_encoder=yes
+pgmyuv_encoder=yes
+pipe_protocol=yes
+png_decoder=yes
+png_decoder_deps=zlib
+png_encoder=yes
+png_encoder_deps=zlib
+pnm_parser=yes
+ppm_encoder=yes
+protocols=yes
+psp_muxer=yes
+ptx_decoder=yes
+qdm2_decoder=yes
+qdraw_decoder=yes
+qpeg_decoder=yes
+qtrle_decoder=yes
+ra_144_decoder=yes
+ra_288_decoder=yes
+ranlib=ranlib
+rawvideo_decoder=yes
+rawvideo_demuxer=yes
+rawvideo_encoder=yes
+rawvideo_muxer=yes
+redir_demuxer=yes
+redir_demuxer_deps=network
+remove_extradata_bsf=yes
+rm_demuxer=yes
+rm_muxer=yes
+roq_decoder=yes
+roq_demuxer=yes
+roq_dpcm_decoder=yes
+roq_dpcm_encoder=yes
+roq_muxer=yes
+rpza_decoder=yes
+rtp_muxer=yes
+rtp_muxer_deps='network mpegts_demuxer'
+rtp_protocol=yes
+rtp_protocol_deps=udp_protocol
+rtsp_demuxer=yes
+rtsp_demuxer_deps='rtp_protocol rtp_muxer'
+rv10_decoder=yes
+rv10_encoder=yes
+rv20_decoder=yes
+rv20_encoder=yes
+sdp_demuxer=yes
+sdp_demuxer_deps=rtsp_demuxer
+segafilm_demuxer=yes
+sgi_decoder=yes
+sgi_encoder=yes
+shared=yes
+shlibdir='${PREFIX}/bin'
+shorten_decoder=yes
+shorten_demuxer=yes
+smackaud_decoder=yes
+smacker_decoder=yes
+smacker_demuxer=yes
+smc_decoder=yes
+snow_decoder=yes
+snow_encoder=yes
+sol_demuxer=yes
+sol_dpcm_decoder=yes
+sonic_decoder=yes
+sonic_encoder=yes
+sonic_ls_encoder=yes
+source_path=/d/Data/Code/ffmpeg-svn
+source_path_used=no
+sp5x_decoder=yes
+ssse3_deps=x86
+static=no
+str_demuxer=yes
+strip=strip
+svq1_decoder=yes
+svq1_encoder=yes
+svq3_decoder=yes
+swf_demuxer=yes
+swf_muxer=yes
+targa_decoder=yes
+targa_encoder=yes
+targetos=mingw32
+tcp_protocol=yes
+tcp_protocol_deps=network
+tg2_muxer=yes
+tgp_muxer=yes
+theora_decoder=yes
+thp_decoder=yes
+thp_demuxer=yes
+tiertexseq_demuxer=yes
+tiertexseqvideo_decoder=yes
+tiff_decoder=yes
+tiff_encoder=yes
+truemotion1_decoder=yes
+truemotion2_decoder=yes
+truespeech_decoder=yes
+tscc_decoder=yes
+tta_decoder=yes
+tta_demuxer=yes
+txd_decoder=yes
+txd_demuxer=yes
+udp_protocol=yes
+udp_protocol_deps=network
+ulti_decoder=yes
+v4l=yes
+v4l2=yes
+v4l2_demuxer=yes
+v4l2_demuxer_deps=v4l2
+value=yes
+var=extralibs
+vc1_decoder=yes
+vc1_decoder_deps=h263_decoder
+vc1_demuxer=yes
+vc1_parser=yes
+vcr1_decoder=yes
+vhook=default
+video_grab_bktr_demuxer=yes
+video_grab_bktr_demuxer_deps=bktr
+video_grab_v4l_demuxer=yes
+video_grab_v4l_demuxer_deps=v4l
+vmd_demuxer=yes
+vmdaudio_decoder=yes
+vmdvideo_decoder=yes
+vmnc_decoder=yes
+voc_demuxer=yes
+voc_muxer=yes
+vorbis_decoder=yes
+vorbis_encoder=yes
+vp3_decoder=yes
+vp5_decoder=yes
+vp6_decoder=yes
+vp6f_decoder=yes
+vqa_decoder=yes
+wav_demuxer=yes
+wav_muxer=yes
+wavpack_decoder=yes
+wc3_demuxer=yes
+wmav1_decoder=yes
+wmav1_encoder=yes
+wmav2_decoder=yes
+wmav2_encoder=yes
+wmv1_decoder=yes
+wmv1_decoder_deps=h263_decoder
+wmv1_encoder=yes
+wmv2_decoder=yes
+wmv2_decoder_deps=h263_decoder
+wmv2_encoder=yes
+wmv3_decoder=yes
+wmv3_decoder_deps=h263_decoder
+wnv1_decoder=yes
+ws_snd1_decoder=yes
+wsaud_demuxer=yes
+wsvqa_demuxer=yes
+wv_demuxer=yes
+x11_grab_device_demuxer=yes
+x11_grab_device_demuxer_deps=x11grab
+x86=yes
+x86_32=yes
+xan_dpcm_decoder=yes
+xan_wc3_decoder=yes
+xl_decoder=yes
+yuv4mpegpipe_demuxer=yes
+yuv4mpegpipe_muxer=yes
+zlib=yes
+zlib_decoder=yes
+zlib_encoder=yes
+zmbv_decoder=yes
+zmbv_decoder_deps=zlib
+zmbv_encoder=yes
+zmbv_encoder_deps=zlib
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int main(){
+     2	    return 0;
+     3	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <signal.h>
+     2	static void sighandler(int sig){
+     3	    raise(SIGTERM);
+     4	}
+     5	int main(){
+     6	    signal(SIGILL, sighandler);
+     7	    signal(SIGFPE, sighandler);
+     8	    signal(SIGSEGV, sighandler);
+     9	#ifdef SIGBUS
+    10	    signal(SIGBUS, sighandler);
+    11	#endif
+    12	    {     volatile int i=0;
+    13	    asm volatile (
+    14	        "xorl %%ebp, %%ebp"
+    15	    ::: "%ebp");
+    16	    return i; }
+    17	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int main(){
+     2	    asm volatile ("":::"%ebx");
+     3	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int main(){
+     2	    asm volatile ("pabsw %xmm0, %xmm0");
+     3	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <inttypes.h>
+     2	int main(int argc, char ** argv){
+     3	        volatile uint32_t i=0x01234567;
+     4	        return (*((uint8_t*)(&i))) == 0x67;
+     5	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+check_header malloc.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <malloc.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_func memalign
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	extern int memalign();
+     2	int main(){
+     3	    memalign();
+     4	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-22928-2068-3046.o:ffmpeg-conf-4515-2068-12006.c:(.text+0x2b): undefined reference to `memalign'
+collect2: ld returned 1 exit status
+check_header byteswap.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <byteswap.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:22: byteswap.h: No such file or directory
+check_header arpa/inet.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <arpa/inet.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:23: arpa/inet.h: No such file or directory
+check_func inet_aton
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	extern int inet_aton();
+     2	int main(){
+     3	    inet_aton();
+     4	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-22928-2068-3046.o:ffmpeg-conf-4515-2068-12006.c:(.text+0x2b): undefined reference to `inet_aton'
+collect2: ld returned 1 exit status
+check_func localtime_r
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	extern int localtime_r();
+     2	int main(){
+     3	    localtime_r();
+     4	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-22928-2068-3046.o:ffmpeg-conf-4515-2068-12006.c:(.text+0x2b): undefined reference to `localtime_r'
+collect2: ld returned 1 exit status
+check_lib zlib.h zlibVersion -lz
+check_header zlib.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <zlib.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:18: zlib.h: No such file or directory
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#define _ISOC9X_SOURCE  1
+     2	#include <math.h>
+     3	int main( void ) { return (lrintf(3.999f) > 0)?0:1; }
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	void foo(char * restrict p);
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1: error: syntax error before "p"
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	void foo(char * __restrict__ p);
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_header dlfcn.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <dlfcn.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:19: dlfcn.h: No such file or directory
+check_func dlopen
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	extern int dlopen();
+     2	int main(){
+     3	    dlopen();
+     4	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-22928-2068-3046.o:ffmpeg-conf-4515-2068-12006.c:(.text+0x2b): undefined reference to `dlopen'
+collect2: ld returned 1 exit status
+check_func dlopen -ldl
+check_ld -ldl
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	extern int dlopen();
+     2	int main(){
+     3	    dlopen();
+     4	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm -ldl
+c:\msys\mingw\bin\..\lib\gcc\mingw32\3.4.5\..\..\..\..\mingw32\bin\ld.exe: cannot find -ldl
+collect2: ld returned 1 exit status
+check_func fork
+check_ld
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	extern int fork();
+     2	int main(){
+     3	    fork();
+     4	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-22928-2068-3046.o:ffmpeg-conf-4515-2068-12006.c:(.text+0x2b): undefined reference to `fork'
+collect2: ld returned 1 exit status
+imlib2-config --version
+./configure: line 381: imlib2-config: command not found
+freetype-config --version
+./configure: line 381: freetype-config: command not found
+check_header linux/videodev.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <linux/videodev.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:28: linux/videodev.h: No such file or directory
+check_header linux/videodev2.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <linux/videodev2.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:29: linux/videodev2.h: No such file or directory
+check_header dev/bktr/ioctl_meteor.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <dev/bktr/ioctl_meteor.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:35: dev/bktr/ioctl_meteor.h: No such file or directory
+check_header machine/ioctl_meteor.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <machine/ioctl_meteor.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:34: machine/ioctl_meteor.h: No such file or directory
+check_header dev/video/meteor/ioctl_meteor.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <dev/video/meteor/ioctl_meteor.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:43: dev/video/meteor/ioctl_meteor.h: No such file or directory
+check_header dev/ic/bt8xx.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <dev/ic/bt8xx.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:26: dev/ic/bt8xx.h: No such file or directory
+check_header sys/soundcard.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <sys/soundcard.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:27: sys/soundcard.h: No such file or directory
+check_header soundcard.h
+check_cpp
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	#include <soundcard.h>
+     2	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -E -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ffmpeg-conf-4515-2068-12006.c:1:23: soundcard.h: No such file or directory
+check_cflags -Wdeclaration-after-statement
+check_cc -Wdeclaration-after-statement
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cflags -Wall
+check_cc -Wall
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cflags -Wno-switch
+check_cc -Wno-switch
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cflags -Wdisabled-optimization
+check_cc -Wdisabled-optimization
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cflags -Wpointer-arith
+check_cc -Wpointer-arith
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cflags -Wredundant-decls
+check_cc -Wredundant-decls
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+check_cflags -Wno-pointer-sign
+check_cc -Wno-pointer-sign
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int x;
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+cc1.exe: error: unrecognized command line option "-Wno-pointer-sign"
+check_ldflags -Wl,--warn-common
+check_ld -Wl,--warn-common
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int main(){
+     2	    return 0;
+     3	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -Wl,--warn-common -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+check_ldflags -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil
+check_ld -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	int main(){
+     2	    return 0;
+     3	}
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -Wl,--warn-common -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil -o /tmp/ffmpeg-conf-4375-2068-29541 /tmp/ffmpeg-conf-22928-2068-3046.o -lm
+check_cc
+BEGIN /tmp/ffmpeg-conf-4515-2068-12006.c
+     1	asm (".align 3");
+END /tmp/ffmpeg-conf-4515-2068-12006.c
+gcc -fomit-frame-pointer -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -O3 -c -o /tmp/ffmpeg-conf-22928-2068-3046.o /tmp/ffmpeg-conf-4515-2068-12006.c
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ccaMaaaa.s: Assembler messages:
+C:/DOKUME~1/STADEL~1/LOKALE~1/Temp/ccaMaaaa.s:3: Error: alignment not a power of 2

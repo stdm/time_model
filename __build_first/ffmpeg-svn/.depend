@@ -1,0 +1,46 @@
+ffmpeg.o: ffmpeg.c d:/Data/Code/ffmpeg-svn/libavformat/avformat.h \
+  d:/Data/Code/ffmpeg-svn/libavcodec/avcodec.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/avutil.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/common.h \
+  d:/Data/Code/ffmpeg-svn/config.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/internal.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/intreadwrite.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/bswap.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/mem.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/mathematics.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/rational.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/integer.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/intfloat_readwrite.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/log.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/avio.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/rtp.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/avformat.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/rtsp.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/rtspcodes.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/os_support.h \
+  d:/Data/Code/ffmpeg-svn/libswscale/swscale.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/avutil.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/framehook.h \
+  d:/Data/Code/ffmpeg-svn/libavcodec/opt.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/rational.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/fifo.h version.h cmdutils.h
+cmdutils.o: cmdutils.c d:/Data/Code/ffmpeg-svn/libavformat/avformat.h \
+  d:/Data/Code/ffmpeg-svn/libavcodec/avcodec.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/avutil.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/common.h \
+  d:/Data/Code/ffmpeg-svn/config.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/internal.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/intreadwrite.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/bswap.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/mem.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/mathematics.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/rational.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/integer.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/intfloat_readwrite.h \
+  d:/Data/Code/ffmpeg-svn/libavutil/log.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/avio.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/rtp.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/avformat.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/rtsp.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/rtspcodes.h \
+  d:/Data/Code/ffmpeg-svn/libavformat/os_support.h cmdutils.h

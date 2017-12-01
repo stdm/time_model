@@ -1,0 +1,67 @@
+EXPORTS
+    av_add_q @1
+    av_adler32_update @2
+    av_aes_crypt @3
+    av_aes_init @4
+    av_aes_size @5 DATA
+    av_base64_decode @6
+    av_base64_encode @7
+    av_crc @8
+    av_crc04C11DB7 @9 DATA
+    av_crc07 @10 DATA
+    av_crc8005 @11 DATA
+    av_crcEDB88320 @12 DATA
+    av_crc_init @13
+    av_d2q @14
+    av_dbl2ext @15
+    av_dbl2int @16
+    av_div_q @17
+    av_evaluate_lls @18
+    av_ext2dbl @19
+    av_fifo_drain @20
+    av_fifo_free @21
+    av_fifo_generic_read @22
+    av_fifo_init @23
+    av_fifo_read @24
+    av_fifo_realloc @25
+    av_fifo_size @26
+    av_fifo_write @27
+    av_flt2int @28
+    av_free @29
+    av_freep @30
+    av_init_lls @31
+    av_init_random @32
+    av_int2dbl @33
+    av_int2flt @34
+    av_log @35
+    av_log_default_callback @36
+    av_log_get_level @37
+    av_log_level @38 DATA
+    av_log_set_callback @39
+    av_log_set_level @40
+    av_malloc @41
+    av_mallocz @42
+    av_md5_final @43
+    av_md5_init @44
+    av_md5_size @45 DATA
+    av_md5_sum @46
+    av_md5_update @47
+    av_mul_q @48
+    av_random_generate_untempered_numbers @49
+    av_realloc @50
+    av_reduce @51
+    av_rescale @52
+    av_rescale_q @53
+    av_rescale_rnd @54
+    av_solve_lls @55
+    av_strdup @56
+    av_sub_q @57
+    av_tree_destroy @58
+    av_tree_find @59
+    av_tree_insert @60
+    av_update_lls @61
+    av_vlog @62
+    ff_gcd @63
+    ff_log2_tab @64 DATA
+    ff_sqrt_tab @65 DATA
+    lzo1x_decode @66

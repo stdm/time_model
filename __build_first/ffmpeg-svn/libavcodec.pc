@@ -1,0 +1,12 @@
+prefix=/d/Data/Code/Sprecherklassifikation/dlls
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 51.40.4
+Requires:  libavutil = 49.4.0
+Conflicts:
+Libs: -L${libdir} -lavcodec  -lm
+Cflags: -I${includedir} -I${includedir}/ffmpeg
